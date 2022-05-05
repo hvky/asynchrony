@@ -1,0 +1,24 @@
+{
+  "name": "asynchrony",
+  "version": "1.0.0",
+  "description": "Practica del asincronismo en Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "promise": "node src/promise/index.js",
+    "async": "node src/async/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Eddy Sejas Arze <eddy.sejas.arze.03@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
